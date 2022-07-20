@@ -1,0 +1,9 @@
+[tool.black]
+line-length = 120
+target-version = ['py38']
+include = '''
+    .*games_howell/.*\.pyi?$
+    | .*scripts/.*\.pyi?$
+    | .*tests/.*\.pyi?$
+'''
+
